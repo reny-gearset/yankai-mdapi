@@ -207,6 +207,13 @@
         <readable>true</readable>
     </fieldPermissions>
     <layoutAssignments>
+        <layout>CustomObject__c-CustomObject Layout</layout>
+    </layoutAssignments>
+    <layoutAssignments>
+        <layout>CustomObject__c-CustomObject Layout</layout>
+        <recordType>CustomObject__c.New_Record_Type</recordType>
+    </layoutAssignments>
+    <layoutAssignments>
         <layout>ProcessException-Process Exception Layout</layout>
     </layoutAssignments>
     <layoutAssignments>
@@ -215,6 +222,11 @@
     <layoutAssignments>
         <layout>ReturnOrderItemTax-Return Order Item Tax Layout</layout>
     </layoutAssignments>
+    <recordTypeVisibilities>
+        <default>true</default>
+        <recordType>CustomObject__c.New_Record_Type</recordType>
+        <visible>true</visible>
+    </recordTypeVisibilities>
     <recordTypeVisibilities>
         <default>false</default>
         <recordType>Idea.InternalIdeasIdeaRecordType</recordType>
@@ -230,6 +242,10 @@
         <recordType>Metric.Progress</recordType>
         <visible>false</visible>
     </recordTypeVisibilities>
+    <tabVisibilities>
+        <tab>CustomObject__c</tab>
+        <visibility>Hidden</visibility>
+    </tabVisibilities>
     <tabVisibilities>
         <tab>standard-Account</tab>
         <visibility>Hidden</visibility>
