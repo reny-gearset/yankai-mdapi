@@ -1,4 +1,4 @@
-<?xml version="1.0" encoding="UTF-8"?>
+﻿<?xml version="1.0" encoding="utf-8"?>
 <Profile xmlns="http://soap.sforce.com/2006/04/metadata">
     <applicationVisibilities>
         <application>standard__AllTabSet</application>
@@ -206,13 +206,6 @@
         <field>ReturnOrderLineItem.SourceLocationId</field>
         <readable>true</readable>
     </fieldPermissions>
-    <layoutAssignments>
-        <layout>CustomObject__c-CustomObject Layout</layout>
-    </layoutAssignments>
-    <layoutAssignments>
-        <layout>CustomObject__c-CustomObject Layout</layout>
-        <recordType>CustomObject__c.New_Record_Type</recordType>
-    </layoutAssignments>
     <layoutAssignments>
         <layout>ProcessException-Process Exception Layout</layout>
     </layoutAssignments>
