@@ -1,39 +1,12 @@
-<?xml version="1.0" encoding="UTF-8"?>
+﻿<?xml version="1.0" encoding="utf-8"?>
 <CustomObjectTranslation xmlns="http://soap.sforce.com/2006/04/metadata">
     <caseValues>
         <plural>false</plural>
         <value><!-- CustomObject --></value>
     </caseValues>
-    <fields>
-        <label>存款</label>
-        <name>Deposit__c</name>
-    </fields>
-    <fieldSets>
-        <label>新栏集</label>
-        <name>New_Field_Set</name>
-    </fieldSets>
-    <layouts>
-        <layout>CustomObject Layout</layout>
-        <sections>
-            <label><!-- Custom Links --></label>
-            <section>Custom Links</section>
-        </sections>
-        <sections>
-            <label><!-- New Section --></label>
-            <section>New Section</section>
-        </sections>
-    </layouts>
     <nameFieldLabel><!-- CustomObject  Name --></nameFieldLabel>
     <quickActions>
         <label><!-- Log A Note --></label>
         <name>Create_Record</name>
     </quickActions>
-    <recordTypes>
-        <label><!-- New Record Type --></label>
-        <name>New_Record_Type</name>
-    </recordTypes>
-    <validationRules>
-        <errorMessage><!-- Deposit cannot be negative --></errorMessage>
-        <name>Deposit_Must_Be_Positive</name>
-    </validationRules>
 </CustomObjectTranslation>
