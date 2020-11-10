@@ -253,4 +253,5 @@
         <errorMessage>Deposit cannot be negative</errorMessage>
     </validationRules>
     <visibility>Public</visibility>
+	>
 </CustomObject>
